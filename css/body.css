@@ -47,6 +47,17 @@ body {
     display: flex;
     align-items: center;
 }
+.sport-container {
+    font-size: larger;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.6);
+    border-radius: 25px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
 
 .video-container {
     font-size: larger;
