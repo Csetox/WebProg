@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/video.css">
     <link rel="stylesheet" href="./css/ligthbox.css">
     <link rel="stylesheet" href="./css/navskip.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./css/mediarule.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -19,7 +19,7 @@
     <script src="./scripts/buttonScript.js"></script>
     <script src="./scripts/lightbox.js"></script>
 </head>
-
+    
 <body>
     <header class="nav-bar">
         <div class="nav-bar-title">
@@ -27,7 +27,7 @@
         </div>
         <div class="nav-bar-container">
             <nav>
-                <lu class="nav-bar-list">
+                <ul class="nav-bar-list">
                     <li class="skip-nav-listitem"> <a href="#content" class="skip-nav">Navigáció átugrása</a> </li>
                     <li class="nav-bar-list-element"><button class="btn-pressed"
                             id="btnBemutatkozas">Bemutatkozás</button>
@@ -36,7 +36,7 @@
                     <li class="nav-bar-list-element"><button class="btn-nav" id="btnKosarlabda">Kosárlabda</button>
                     </li>
                     <li class="nav-bar-list-element"><button class="btn-nav" id="btnDarts">Darts</button> </li>
-                </lu>
+                </ul>
             </nav>
         </div>
     </header>
@@ -65,12 +65,14 @@
             <div class="sport-container">
                 <a href="#" class="open-lightbox">
                     <img src="./images/thumbnail_blokk.jpg"
-                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben." class="block-pic">
+                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben."
+                        class="block-pic">
                 </a>
                 <div class="lightbox" id="lightbox">
                     <span class="close" onclick="closeLightbox()">&times;</span>
                     <img src="./images/blokk.jpg"
-                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben" class="block-pic">
+                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben"
+                        class="block-pic">
                 </div>
 
                 <div>
@@ -93,9 +95,12 @@
     <footer class="footer">
         <div class="footer-text">Elérhetőségek:</div>
         <div class="footer-list">
-            <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
-            <li class="footer-list-element">Phone: +36macos53is743better8343</li>
-            <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+            <ul>
+
+                <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
+                <li class="footer-list-element">Phone: +36macos53is743better8343</li>
+                <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+            </ul>
         </div>
     </footer>
 </body>

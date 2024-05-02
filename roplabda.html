@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
         </div>
         <div class="nav-bar-container">
             <nav>
-                <lu class="nav-bar-list">
+                <ul class="nav-bar-list">
                     <li class="skip-nav-listitem"> <a href="#content" class="skip-nav">Navigáció átugrása</a> </li>
                     <li class="nav-bar-list-element"><button class="btn-nav" id="btnBemutatkozas">Bemutatkozás</button>
                     </li>
@@ -35,7 +35,7 @@
                     <li class="nav-bar-list-element"><button class="btn-nav" id="btnKosarlabda">Kosárlabda</button>
                     </li>
                     <li class="nav-bar-list-element"><button class="btn-nav" id="btnDarts">Darts</button> </li>
-                </lu>
+                </ul>
             </nav>
         </div>
     </header>
@@ -72,12 +72,12 @@
                 </div>
             </div>
         </section>
-        <div class="video-container"> <video width="100%" controls poster="images/thumbnail.png">
+        <div class="video-container"> <video controls poster="images/thumbnail.png">
                 <source src="./video/serve.mp4" type="video/mp4">
             </video>
             <h2>Neves röplabda versenyek</h2>
             <article>
-                <p class="text-block" class="volleyball-competitions">A röplabda számos versenyformátumot
+                <p class="text-block" id="volleyball-competitions">A röplabda számos versenyformátumot
                     kínál,
                     amelyek közül kettő kiemelkedő fontosságú
                     és népszerű a sportág szerelmesei körében: a Nemzetek Ligája (VNL) és az Olimpiai Játékok.
@@ -154,9 +154,11 @@
     <footer class="footer">
         <div class="footer-text">Elérhetőségek:</div>
         <div class="footer-list">
-            <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
-            <li class="footer-list-element">Phone: +36macos53is743better8343</li>
-            <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+            <ul>
+                <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
+                <li class="footer-list-element">Phone: +36macos53is743better8343</li>
+                <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+            </ul>
         </div>
     </footer>
 </body>

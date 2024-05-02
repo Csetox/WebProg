@@ -153,6 +153,14 @@
         align-items: center;
         margin: 0 auto;
     }
+
+    .power-pic {
+        width: 60vw;
+        height: auto;
+        border-radius: 15px;
+        align-items: center;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width:851px) and (max-width: 1400px) {
@@ -238,6 +246,14 @@
     .gezzy-pic {
         width: 60vw;
         height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .power-pic {
+        width: 60vw;
+        height: auto;
+        border-radius: 15px;
         align-items: center;
         margin: 0 auto;
     }

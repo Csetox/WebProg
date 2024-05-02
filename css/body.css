@@ -127,6 +127,7 @@ aside {
 
 video {
     border-radius: 15px;
+    width: 100%;
 }
 
 .gezzy-pic {
@@ -134,7 +135,7 @@ video {
     border-radius: 15px;
 }
 
-.volleyball-competitions {
+#volleyball-competitions {
     margin: 20px;
     margin-bottom: 50px;
 }
@@ -167,4 +168,14 @@ video {
 
 .darts {
     text-align: center;
+}
+
+.power-pic {
+    height: 40vh;
+    width: auto;
+    border-radius: 15px;
+}
+
+.form-container {
+    background-image: url(../images/formbg.jpg);
 }
