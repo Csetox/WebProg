@@ -153,6 +153,7 @@ video {
 .jordan-pic {
     border-radius: 25px;
     height: 40vh;
+    width: auto;
 }
 
 .curry-pic {

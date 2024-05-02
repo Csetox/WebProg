@@ -1,6 +1,6 @@
 @media only screen and (max-width: 850px) {
 
-    .text-block{
+    .text-block {
         font-size: medium;
     }
 
@@ -107,9 +107,7 @@
         justify-content: center;
         align-items: center;
         margin: 0;
-        /* Reset margins */
         padding: 0;
-        /* Reset padding */
     }
 
     figure img {
@@ -128,13 +126,26 @@
         margin: 1vw;
     }
 
-    .kobe-pic{
+    .kobe-pic {
         align-items: center;
         height: 40vh;
         margin: 0 auto;
         padding: none;
     }
 
+    .jordan-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .curry-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width:851px) and (max-width: 1400px) {
@@ -152,7 +163,7 @@
     }
 
     .sport-container {
-        font-size: medium;
+        font-size: 1.7rem;
         padding: 30px;
         background-color: rgba(240, 240, 240, 0.6);
         border-radius: 25px;
@@ -163,7 +174,7 @@
         align-items: center;
     }
 
-    .nav-bar-title{
+    .nav-bar-title {
         font-size: 0.9rem;
     }
 
@@ -197,6 +208,20 @@
     }
 
     .leon-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .jordan-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .curry-pic {
         width: 60vw;
         height: auto;
         align-items: center;
