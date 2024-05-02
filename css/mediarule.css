@@ -146,6 +146,13 @@
         align-items: center;
         margin: 0 auto;
     }
+
+    .gezzy-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width:851px) and (max-width: 1400px) {
@@ -222,6 +229,13 @@
     }
 
     .curry-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .gezzy-pic {
         width: 60vw;
         height: auto;
         align-items: center;
