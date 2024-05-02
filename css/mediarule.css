@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
 
     .container {
         font-size: medium;
@@ -11,6 +11,7 @@
         display: grid;
         align-items: center;
     }
+
     .sport-container {
         font-size: medium;
         padding: 30px;
@@ -41,13 +42,15 @@
         align-items: center;
         margin: 0 auto;
     }
-    .nav-bar{
+
+    .nav-bar {
         display: flex;
         flex-direction: column;
         align-items: center;
         height: auto;
     }
-    .nav-bar-title{
+
+    .nav-bar-title {
         font-size: 6vw;
         padding-top: 4vh;
     }
@@ -57,25 +60,38 @@
         padding: 0;
         margin: 0;
     }
-    
+
     .nav-bar-list-element {
         margin-top: 10px;
+        width: 20vw;
     }
 
-    .btn-nav{
+    .btn-nav {
         height: 4vh;
         width: 20vw;
         font-size: 0.7rem;
     }
 
-    .btn-pressed{
+    .btn-pressed {
         height: 4vh;
         width: 20vw;
         font-size: 0.7rem;
+    }
+
+    .leon-pic {
+        width: 60vw;
+        height: auto;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    figure {
+
+        align-items: center;
     }
 }
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1400px) {
     .block-pic {
         width: 60vw;
         height: auto;
@@ -88,6 +104,7 @@
         align-items: center;
         margin: 0 auto;
     }
+
     .sport-container {
         font-size: medium;
         padding: 30px;
@@ -100,16 +117,15 @@
         align-items: center;
     }
 
-    .btn-nav{
+    .btn-nav {
         height: 4vh;
-        width: 12vw;
+        width: 20vw;
         font-size: 0.7rem;
     }
 
-    .btn-pressed{
+    .btn-pressed {
         height: 4vh;
-        width: 12vw;
+        width: 20vw;
         font-size: 0.7rem;
     }
-    
 }
