@@ -1,7 +1,6 @@
 .roplabda-table {
     border-collapse: collapse;
     background-color: aliceblue;
-    background-image: url('./images/blue-bg.jpeg');
     width: 100%;
     border-radius: 15px;
     overflow: hidden; /* Ensures rounded corners are applied properly */

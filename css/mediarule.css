@@ -84,12 +84,14 @@
         height: 4vh;
         width: 100%;
         font-size: 0.7rem;
+        overflow: hidden;
     }
 
     .btn-pressed {
         height: 4vh;
         width: 20vw;
         font-size: 0.7rem;
+        overflow: hidden;
     }
 
     .leon-pic {
@@ -128,12 +130,14 @@
 
     .kobe-pic{
         align-items: center;
+        height: 40vh;
         margin: 0 auto;
+        padding: none;
     }
 
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (min-width:851px) and (max-width: 1400px) {
     .block-pic {
         width: 60vw;
         height: auto;
@@ -159,16 +163,22 @@
         align-items: center;
     }
 
+    .nav-bar-title{
+        font-size: 0.9rem;
+    }
+
     .btn-nav {
         height: 4vh;
-        width: 20vw;
-        font-size: 0.7rem;
+        width: 12vw;
+        font-size: 0.9rem;
+        overflow: hidden;
     }
 
     .btn-pressed {
         height: 4vh;
-        width: 20vw;
-        font-size: 0.7rem;
+        width: 12vw;
+        font-size: 0.9rem;
+        overflow: hidden;
     }
 
     figure {
