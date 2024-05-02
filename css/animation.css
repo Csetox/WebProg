@@ -1,7 +1,3 @@
-/* details:not([open]) table {
-    display: none;
-} */
-
 @keyframes slideDown {
     0% {
         opacity: 0;
@@ -24,40 +20,3 @@ details:not([open]) table {
     overflow: hidden;
     transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
 }
-
-/* Animate opening 
-  details[open] table {
-    max-height: 1000px; /* Adjust to your preference 
-    opacity: 1;
-  }
-  
-  /* Animate closing 
-  details:not([open]) table {
-    max-height: 0;
-    opacity: 0;
-  }
-  details {
-    background: gainsboro;
-    padding: 10px;
-  }
-  
-  details summary {
-    cursor: pointer;
-    transition: margin 150ms ease-out;
-  }
-  
-  details[open] summary {
-    margin-bottom: 10px;
-  }
-  #myDetails {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-  }
-  
-  #myDetails[open] {
-    max-height: 500px; /* Adjust to your preference 
-  }
-  */
-
-/* k */

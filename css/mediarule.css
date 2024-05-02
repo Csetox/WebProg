@@ -1,5 +1,9 @@
 @media only screen and (max-width: 850px) {
 
+    .text-block{
+        font-size: medium;
+    }
+
     .container {
         font-size: medium;
         padding: 30px;
@@ -22,6 +26,16 @@
         margin-top: 50px;
         display: grid;
         align-items: center;
+    }
+
+    .video-container {
+        font-size: medium;
+        padding: 30px;
+        background-color: rgba(240, 240, 240, 0.6);
+        border-radius: 25px;
+        margin-left: 9vw;
+        margin-right: 9vw;
+        margin-top: 50px;
     }
 
     .about-me-pic {
@@ -68,7 +82,7 @@
 
     .btn-nav {
         height: 4vh;
-        width: 20vw;
+        width: 100%;
         font-size: 0.7rem;
     }
 
@@ -81,14 +95,42 @@
     .leon-pic {
         width: 60vw;
         height: auto;
-        margin: 0 auto;
         align-items: center;
+        margin: 0 auto;
     }
 
     figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        /* Reset margins */
+        padding: 0;
+        /* Reset padding */
+    }
 
+    figure img {
+        max-width: 100%;
+        height: auto;
         align-items: center;
     }
+
+    .text-block {
+        width: fit-content;
+        height: auto;
+    }
+
+    .basketball-header {
+        text-align: center;
+        margin: 1vw;
+    }
+
+    .kobe-pic{
+        align-items: center;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (max-width: 1400px) {
@@ -127,5 +169,27 @@
         height: 4vh;
         width: 20vw;
         font-size: 0.7rem;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    figure img {
+        max-width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .leon-pic {
+        width: 60vw;
+        height: auto;
+        align-items: center;
+        margin: 0 auto;
     }
 }
