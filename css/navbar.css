@@ -1,0 +1,54 @@
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+    height: 15vh;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-title {
+    padding-left: 4vw;
+    font-size: 1.5vw;
+}
+
+.nav-bar-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar-list-element {
+    list-style: none;
+    padding: 2vw;
+}
+
+.btn-nav {
+    height: 6vh;
+    width: 7.5vw;
+    font-size: 1vw;
+    background-color: white;
+    border: solid 2px #ff9100;
+    border-radius: 5%;
+    transition: all .5s ease-in-out;
+}
+
+.btn-nav:hover {
+    border: solid 2px #2032ff;
+    box-shadow: 3px 2px 2px black;
+}
+
+.btn-pressed {
+    height: 6vh;
+    width: 7.5vw;
+    font-size: 1vw;
+    background-color: white;
+    border: solid 2px #2032ff;
+    border-radius: 5%;
+    transition: all .5s ease-in-out;
+}
+.btn-pressed:hover {
+    border: solid 2px #ff9100;
+    box-shadow: 3px 2px 2px black;
+}

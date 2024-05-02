@@ -1,0 +1,156 @@
+main {
+    background: linear-gradient(#ff9100, #2032ff);
+    height: auto;
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2.5vh;
+}
+
+.footer {
+    border-top: 2px solid #3c3d3c;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 1.5vh;
+    font-size: 1.6rem;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.container {
+    font-size: larger;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.6);
+    border-radius: 25px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.video-container {
+    font-size: larger;
+    padding: 30px;
+    background-color: rgba(240, 240, 240, 0.6);
+    border-radius: 25px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 50px;
+}
+
+.text-block {
+    text-align: justify;
+    margin: 1vw;
+}
+
+.form-container {
+    font-size: larger;
+    padding: 30px;
+    background-size: cover;
+    border-radius: 25px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.roplabda-header {
+    text-align: center;
+}
+
+.about-me-header {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.about-me-pic {
+    border-radius: 25px;
+    height: 35vh;
+    /*200px -> 35 vh*/
+}
+
+.block-pic {
+    border-radius: 25px;
+    height: 55vh;
+}
+
+.sport-header {
+    margin-left: 1vw;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.leon-pic {
+    border-radius: 25px;
+    height: 40vh;
+}
+
+aside {
+    margin: 1rem;
+}
+
+video {
+    border-radius: 15px;
+}
+
+.gezzy-pic {
+    height: 40vh;
+    border-radius: 15px;
+}
+
+.volleyball-competitions {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.basketball-header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+.kobe-pic {
+    border-radius: 15px;
+    height: 45vh;
+}
+
+.jordan-pic {
+    border-radius: 25px;
+    height: 40vh;
+}
+
+.curry-pic {
+    border-radius: 15px;
+    height: 40vh;
+}
+
+.icon {
+    margin-left: 1vw;
+}
+
+.darts {
+    text-align: center;
+}

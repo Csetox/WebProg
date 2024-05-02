@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/ligthbox.css">
+    <link rel="stylesheet" href="./css/navskip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbdeff508.js" crossorigin="anonymous"></script>
+    <script src="./scripts/buttonScript.js"></script>
+    <script src="./scripts/lightbox.js"></script>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <div class="nav-bar-title">
+            Bemutatkozás
+        </div>
+        <div class="nav-bar-container">
+            <nav>
+                <lu class="nav-bar-list">
+                    <li class="skip-nav-listitem"> <a href="#content" class="skip-nav">Navigáció átugrása</a> </li>
+                    <li class="nav-bar-list-element"><button class="btn-pressed"
+                            id="btnBemutatkozas">Bemutatkozás</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnRoplabda">Röplabda</button> </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnKosarlabda">Kosárlabda</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnDarts">Darts</button> </li>
+                </lu>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        <section>
+            <div class="container">
+                <div>
+                    <h1 class="about-me-header">Rólam</h1>
+                    <p class="text-block">Csordás Attila vagyok, 19 éves, az ELTE - Informatikai Kar elsőéves
+                        hallgatója. Az informatikus
+                        sztereotípiákkal ellentétben nagyon sokat sportolok, már kiskorom óta legtöbb szabadidőmet
+                        sportolással
+                        töltöttem. 9 éves korom óta röplabdázok versenyszerűen, jelenleg NB1-ben. Mellette néha
+                        kosárlabdázok és
+                        dartsozok, de ezeket csak, szórakozás céljából. Barátaimmal szoktam kosarazni, és volt
+                        csapattársaimmal
+                        eljárunk dartsozni is, de azt egyedül is szoktam játszani.</p>
+                </div>
+                <img src="./images/rolam.jpg"
+                    alt="Rólam egy kép öltönyben, virágcsokrokkal a kezemben, bokros háttér előtt."
+                    class="about-me-pic">
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <a href="#" class="open-lightbox">
+                    <img src="./images/thumbnail_blokk.jpg"
+                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben." class="block-pic">
+                </a>
+                <div class="lightbox" id="lightbox">
+                    <span class="close" onclick="closeLightbox()">&times;</span>
+                    <img src="./images/blokk.jpg"
+                        alt="Rólam és csapattársamról egy kép sáncolás közben röplabda mérkőzés közben" class="block-pic">
+                </div>
+
+                <div>
+                    <h2 class="sport-header">Sport az életemben</h2>
+                    <p class="text-block">
+                        A sport az életemben fontos szerepet tölt be, mivel kikapcsolódást és felszabadulást nyújt
+                        számomra. Az
+                        edzés alatt teljesen elfelejtem a mindennapi stresszt és problémákat, és egyszerűen csak élvezem
+                        a
+                        mozgást és a tevékenységet. Emellett örömet és elégedettséget is hoz számomra. A sikeres
+                        teljesítmények
+                        vagy akár csak egy jó hangulatú edzés mind pozitív érzéseket keltenek bennem, ami segít abban,
+                        hogy
+                        magabiztosabbnak és boldogabbnak érezzem magam.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">Elérhetőségek:</div>
+        <div class="footer-list">
+            <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
+            <li class="footer-list-element">Phone: +36macos53is743better8343</li>
+            <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+        </div>
+    </footer>
+</body>
+
+</html>

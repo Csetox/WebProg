@@ -1,0 +1,36 @@
+.roplabda-table {
+    border-collapse: collapse;
+    background-color: aliceblue;
+    background-image: url('./images/blue-bg.jpeg');
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden; /* Ensures rounded corners are applied properly */
+}
+
+.roplabda-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.roplabda-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.roplabda-table th {
+    background-color: #ffefd9;
+    color: #333;
+    text-align: center;
+}
+
+.roplabda-table td:not(:first-child) {
+    border-left: 1px solid #ddd;
+    text-align: center;
+}
+
+.roplabda-table td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.roplabda-table tr:not(:last-child) td {
+    border-bottom: 1px solid #ddd;
+}

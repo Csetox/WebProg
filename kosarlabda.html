@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kosárlabda</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/ligthbox.css">
+    <link rel="stylesheet" href="./css/navskip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbdeff508.js" crossorigin="anonymous"></script>
+    <script src="./scripts/buttonScript.js"></script>
+    <script src="./scripts/lightbox.js"></script>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <div class="nav-bar-title">
+            Kosárlabda
+        </div>
+        <div class="nav-bar-container">
+            <nav>
+                <lu class="nav-bar-list">
+                    <li class="skip-nav-listitem"> <a href="#content" class="skip-nav">Navigáció átugrása</a> </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnBemutatkozas">Bemutatkozás</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnRoplabda">Röplabda</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-pressed" id="btnKosarlabda">Kosárlabda</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnDarts">Darts</button> </li>
+                </lu>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        <section>
+            <div class="container">
+                <img src="./images/kobe.jpg"
+                    alt="Kobe Bryant lila sárga Lakers-es mezben közönség előtt a levegőben egy középtávolit dob."
+                    class="kobe-pic">
+                <div>
+                    <h1 class="basketball-header">A kosárlabda</h1>
+                    <p class="text-block">Kosárlabda egy gyors tempójú csapatsport, amelyet két ötfős csapat játszik
+                        egymás ellen, a cél pedig az, hogy a labdát bejuttassák az ellenfél kosarába, miközben
+                        megakadályozzák, hogy az ellenfél ugyanezt tegye. A játék egy 15*28 méteres pályán zajlik, ahol
+                        mindkét végén kosárlabda palánk található. A gyűrű magassága 305 cm, férfiaknál és nőknél
+                        egyaránt. A játék folyamatos akciókkal, gyors betörésekkel, hárompontos dobásokkal és
+                        zsákolásokkal tarkított, izgalmas hangulatot teremtve a játékosok és a nézők számára egyaránt.
+                        Kosárlabdát időre játszák, NBA-ben 4 12 perces negyed van, FIBA-ban 4 10 perces negyed, az nyer
+                        akinek több pontja van, ha egyenlő az állás, akkor hosszabbításban dől el a mérkőzés.</p>
+                    <aside>
+                        <a href="https://en.wikipedia.org/wiki/Rules_of_basketball" target="_blank">Részletes
+                            szabályokat itt találhatsz.</a>
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="text-block">
+                    <h2>Michael Jordan és a Chicago Bulls</h2>
+                    <p>
+                        Aki nem hallott a kosárlabdáról, az biztos, hogy hallott a Chicago Bulls-ról és Michael
+                        Jordan-ről. Ő a legjobb kosaras valaha (GOAT), és majdhogynem neki köszönheti népszerűségét a
+                        kosárlabda. 1984-1998-ig játszott a Chicago Bulls csapatában ezalatt, Rookie Of The Year,
+                        5-szörös Regular Season MVP, 14-szeres All-Star, 10-szeres All-NBA First Team, 9-szeres NBA
+                        All-Defensive first team, 10-szeres NBA Scoring Champ, 1991 és 1998 között 6-szoros NBA bajnok
+                        és 6-szoros Finals MVP, és lehetne folytatni a sort.
+                        <br>
+                        Jordan a Chicago Bulls-t egy dinasztiává tette, de ez nem sikerülhetett volna csapattársai
+                        nélkül. A Chicago Bulls világszerte ismert lett, és ez az ismerettség a mai napig eltart, annak
+                        ellenére, hogy most a Chicago Bulls nincs benne a legjobb 15 csapatban a ligában.
+                    </p>
+                </div>
+                <figure>
+                    <a href="#" class="open-lightbox">
+                        <img src="./images/jordan-pippen-rodman.jpg"
+                            alt="Michael Jordan, Scottie Pippen és Dennis Rodman meccs közben." class="jordan-pic">
+                    </a>
+                    <figcaption>A Chicago Bulls három nagyja <br> Jordan Pippen Rodman
+                    </figcaption>
+                </figure>
+                <div class="lightbox" id="lightbox">
+                    <span class="close" onclick="closeLightbox()">&times;</span>
+                    <img src="./images/jordan-pippen-rodman.jpg"
+                        alt="3 Chicago Bulls játékos meccs közben. Balról jobbra, Michael Jordan derékra tett kézzel, Scottie Pippen derékra tett kézzel, és Dennis Rodman térden támaszkodva.">
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <img src="images/curry.jpg" alt="" class="curry-pic">
+                <div>
+                    <h2 class="icon">A következő ikon</h2>
+                    <p class="text-block">
+                        Manapság akire úgy néznek fel az emberek mint régen Jordan-re az nem más mint Stephen Curry. Ő
+                        népszerűsítette el a hárompontos dobást, és Ő tartja a legtöbb hárompontos rekordot is. 2009 óta
+                        van
+                        a ligában azóta, 4-szeres NBA bajnok, 1-szeres Finals MVP, 2-szeres Regular Season MVP, (Ő az
+                        egyetlen az NBA történelmében, aki MVP lett egyhangú szavazattal), 10-szeres All-Star, és Best
+                        Shooter of All Time. Nem a legjobb játékos, de az egyik leghíresebb, a mez eladásokat évek óta
+                        vezeti, és a legmeghatározóbb játékos az NBA történelmében, mivel megsokszorozta a hárompontos
+                        dobások számát az egész NBA-ben.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">Elérhetőségek:</div>
+        <div class="footer-list">
+            <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
+            <li class="footer-list-element">Phone: +36macos53is743better8343</li>
+            <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+        </div>
+    </footer>
+</body>
+
+</html>

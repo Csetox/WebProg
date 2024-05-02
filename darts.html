@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/navskip.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/afbdeff508.js" crossorigin="anonymous"></script>
+    <script src="./scripts/buttonScript.js"></script>
+</head>
+
+<body>
+    
+    <header class="nav-bar">
+        <div class="nav-bar-title">
+            Darts
+        </div>
+        <div class="nav-bar-container">
+            <nav>
+                <lu class="nav-bar-list">
+                    <li class="skip-nav-listitem"> <a href="#content" class="skip-nav">Navigáció átugrása</a> </li>                  
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnBemutatkozas">Bemutatkozás</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnRoplabda">Röplabda</button> </li>
+                    <li class="nav-bar-list-element"><button class="btn-nav" id="btnKosarlabda">Kosárlabda</button>
+                    </li>
+                    <li class="nav-bar-list-element"><button class="btn-pressed" id="btnDarts">Darts</button> </li>
+                </lu>
+            </nav>
+        </div>
+    </header>
+    <main id="content">
+        <div class="container">
+            <figure> <img src="images/dartswc.jpg" alt="Gerwyn Price és Jonny Clayton feltartják a páros világbajnoki trófeát." class="gezzy-pic">
+                <figcaption> Gerwyn Price és Jonny Clayton</figcaption>
+            </figure>
+
+            <div class="text-block">
+                <h1 class="darts">A darts</h1>
+                <p>
+                    A darts angol eredetű játék és sport, melynek során apró nyilakkal dobnak egy kör alakú céltábla
+                    különböző pontértékű szektoraira. A játék célja a versenyszabályban meghatározott számú leget
+                    nyerni. Egy leg az 501 pontról indul és a játékos által dobott pontot mindig kivonják a maradék
+                    pontjaiból. Aki először éri el a 0 pontot úgy, hogy az utolsó dobás dupla szektort talál, megnyerte
+                    a leget. Szabályok:
+                <ul>
+                    <li>A táblától 237 cm-re kell állnia a dobónak.</li>
+                    <li>A tábla középpontjának magassága a talajtól mérve 173 cm.</li>
+                    <li>Dobásnál mindkét lábnak a dobóvonal mögött kell lennie.</li>
+                    <li>Az eldobott nyilat akkor sem lehet újra eldobni, ha az nem érte a táblát.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="text-block">
+                <h3>The Power</h3>
+                <p>
+                    A darts világbajnokságot évente rendezik meg decemberben és január elején az Alexandra Palace-ban
+                    Londonban. Ez a legtekintélyesebb verseny a dartsban amely kieséses rendszerben működik. Összesen
+                    96-an szállnak versenybe 7 körön keresztül a világbajnoki címért. A világbajnokság vége felé egyre
+                    hosszabbak a meccsek, és ezzel egyre izgalmasabbak is. Az első körben csak 3 szettet kell nyerni,
+                    míg a döntőben már 7-et. A legutóbbi világbajnok Luke Humphries lett, de Luke Littler, aki mégcsak
+                    17 éves csak 3 szettel maradt le a dobogó legfelső fokáról. Dartsban a valaha volt legjobbnak Phil
+                    "The Power" Taylor-t tartják, 214 profi versenyt, 85 major tornát, és 16 világbajnokságot nyert.
+                    Közel 30 évig dominálta a darts közegét, idén játszotta utolsó világbajnoki mérkőzését, a Senior
+                    Világbajnokságon.
+                </p>
+            </div>
+            <img src="images/phil-taylor.jpg" alt="Phil Taylor fiatal korában világbajnoki trófeát tart, és idősebb korában is feltartja a világbajnoki trófeát." height="300px">
+        </div>
+        <div class="form-container" style="background-image: url(images/bg.jpg);"> <!-- Ha css-be rakom ezt a style-t akkor nem mukodik :) -->
+            <form action="#" method="post">
+                <label for="sport_frequency">Ön milyen gyakran sportol?</label><br>
+                <input type="radio" id="frequency_multiple_times" name="sport_frequency" value="Naponta többször">
+                <label for="frequency_multiple_times">Naponta többször</label><br>
+                <input type="radio" id="frequency_daily" name="sport_frequency" value="Naponta">
+                <label for="frequency_daily">Naponta</label><br>
+                <input type="radio" id="frequency_weekly" name="sport_frequency" value="Hetente néhányszor">
+                <label for="frequency_weekly">Hetente néhányszor</label><br>
+                <input type="radio" id="frequency_never" name="sport_frequency" value="Nem szoktam">
+                <label for="frequency_never">Nem szoktam</label><br><br>
+
+                <label for="competitive_sport">Sportolt valaha versenyszerűen?</label><br>
+                <input type="checkbox" id="competitive_yes" name="competitive_sport" value="Igen">
+                <label for="competitive_yes">Igen</label><br>
+                <br>
+
+                <label for="competitive_details">Ha igen, mit és milyen szinten?</label><br>
+                <textarea id="competitive_details" name="competitive_details" rows="4" cols="50" maxlength="250"></textarea><br><br>
+
+                <label for="favorite_sport">Milyen sportágat tart a kedvencének? (Nézni/játszani)</label><br>
+                <input type="text" id="favorite_sport" name="favorite_sport" maxlength="100"><br><br>
+
+                
+
+                <input type="submit" value="Elküld">
+                <input type="reset" value="Töröl">
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-text">Elérhetőségek:</div>
+        <div class="footer-list">
+            <li class="footer-list-element">Mail: macOSisBetter@gmail.com</li>
+            <li class="footer-list-element">Phone: +36macos53is743better8343</li>
+            <li class="footer-list-element">Instagram: @macOSisbetter_</li>
+        </div>
+    </footer>
+</body>
+
+</html>
