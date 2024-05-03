@@ -174,3 +174,35 @@ video {
 .form-container {
     background-image: url(../images/grad.png);
 }
+
+.btn-send{
+    height: 6vh;
+    width: 7.5vw;
+    font-size: 1vw;
+    background-color: white;
+    border: solid 2px green;
+    border-radius: 5%;
+    transition: all .5s ease-in-out;
+}
+
+.btn-send:hover{
+    border: solid 2px green;
+    background-color: rgb(24, 231, 24);
+    box-shadow: 3px 2px 2px black;
+}
+
+.btn-delete:hover{
+    border: solid 2px red;
+    background-color: rgb(239, 76, 76);
+    box-shadow: 3px 2px 2px black;
+}
+
+.btn-delete{
+    height: 6vh;
+    width: 7.5vw;
+    font-size: 1vw;
+    background-color: white;
+    border: solid 2px red;
+    border-radius: 5%;
+    transition: all .5s ease-in-out;
+}

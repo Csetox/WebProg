@@ -88,7 +88,7 @@
         <div class="form-container">
             <div class="overlay">
                 <!-- Ha css-be rakom ezt a style-t akkor nem mukodik :) -->
-                <form action="#" method="post">
+                <form action="mailto:baezgo@inf.elte.hu" method="post" enctype="text/plain">
                     <label for="frequency_multiple_times">Ön milyen gyakran sportol?</label><br>
                     <input type="radio" id="frequency_multiple_times" name="sport_frequency" value="Naponta többször">
                     <label for="frequency_multiple_times">Naponta többször</label><br>
@@ -107,8 +107,8 @@
                     <label for="favorite_sport">Milyen sportágat tart a kedvencének? (Nézni/játszani)</label><br>
                     <input type="text" id="favorite_sport" name="favorite_sport" maxlength="100"><br><br>
 
-                    <input type="submit" value="Elküld">
-                    <input type="reset" value="Töröl">
+                    <input type="submit" class="btn-send" value="Elküld">
+                    <input type="reset" class="btn-delete"  value="Töröl">
                 </form>
 
             </div>
