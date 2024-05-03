@@ -1,16 +1,32 @@
-/* img{
-    max-width: 50%;
-    height: auto;
-}
+@media print {
 
-video{
-    display: none;
-}
+    img {
+        /* display: none; */
+        max-width: 50%;
+        /* height: auto; */
+    }
+    
+    .sport-container {
+        flex-direction: column;
+    }
 
-header{
-    display: none;
-}
+    .nav-bar {
+        display: none;
+    }
 
-footer{
-    display: none;
-} */
+    .footer {
+        display: none;
+    }
+
+    video {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
