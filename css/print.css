@@ -1,20 +1,59 @@
 @media print {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: black;
+        font-size: 18px;
+        overflow: visible;
+    }
 
     img {
-        /* display: none; */
-        max-width: 50%;
-        /* height: auto; */
+        max-height: 250px;
+        width: auto;
+        align-items: center;
     }
-    
-    .sport-container {
+
+    .container {
+        padding: 0;
+        margin: 0;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .sport-container {
+        display: grid;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .video-container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text-block {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: justify;
     }
 
     .nav-bar {
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
         display: none;
     }
 
     .footer {
+        margin: 0;
+        padding: 0;
         display: none;
     }
 
