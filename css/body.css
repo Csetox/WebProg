@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1.3em;
+    font-size: 1.6em;
     min-width: 360px;
 }
 
@@ -37,7 +37,6 @@ body {
 }
 
 .container {
-    /* font-size: larger; */
     padding: 30px;
     background-color: rgba(240, 240, 240, 0.6);
     border-radius: 25px;
@@ -49,7 +48,6 @@ body {
 }
 
 .sport-container {
-    /* font-size: larger; */
     padding: 30px;
     background-color: rgba(240, 240, 240, 0.6);
     border-radius: 25px;
@@ -61,7 +59,6 @@ body {
 }
 
 .video-container {
-    /* font-size: larger; */
     padding: 30px;
     background-color: rgba(240, 240, 240, 0.6);
     border-radius: 25px;
@@ -76,7 +73,6 @@ body {
 }
 
 .form-container {
-    /* font-size: larger; */
     padding: 30px;
     background-size: cover;
     border-radius: 25px;
@@ -176,5 +172,5 @@ video {
 }
 
 .form-container {
-    background-image: url(../images/formbg.jpg);
+    background-image: url(../images/grad.png);
 }

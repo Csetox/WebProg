@@ -1,11 +1,6 @@
 @media only screen and (max-width: 850px) {
 
-    .text-block {
-        font-size: medium;
-    }
-
     .container {
-        font-size: medium;
         padding: 30px;
         background-color: rgba(240, 240, 240, 0.6);
         border-radius: 25px;
@@ -16,8 +11,12 @@
         align-items: center;
     }
 
+    #volleyball-competitions{
+        margin: 0 0;
+        padding: 0;
+    }
+
     .sport-container {
-        font-size: medium;
         padding: 30px;
         background-color: rgba(240, 240, 240, 0.6);
         border-radius: 25px;
@@ -29,8 +28,6 @@
     }
 
     .video-container {
-        font-size: medium;
-        padding: 30px;
         background-color: rgba(240, 240, 240, 0.6);
         border-radius: 25px;
         margin-left: 9vw;
@@ -65,7 +62,7 @@
     }
 
     .nav-bar-title {
-        font-size: 6vw;
+        font-size: 1.75rem;
         padding-top: 4vh;
     }
 
@@ -130,7 +127,7 @@
         align-items: center;
         height: 40vh;
         margin: 0 auto;
-        padding: none;
+        padding: 0;
     }
 
     .jordan-pic {
@@ -178,7 +175,6 @@
     }
 
     .sport-container {
-        font-size: 1.7rem;
         padding: 30px;
         background-color: rgba(240, 240, 240, 0.6);
         border-radius: 25px;
